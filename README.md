@@ -1,5 +1,5 @@
 # ER-Save
-# Version: 1.0
+# Version: 1.1
 # Elden Ring character save file utility to back up character save files. This program will look for character save files and then copy them if found. This currently works for both Vanilla and Seamless Co-Op save files. Tested on Windows 11 PC. I am not liable for any damaged or lost save files, use this software at your own risk.
 # Designed by Ghost-In-The-Void in 2024
 # https://github.com/Ghost-In-The-Void/ER-Save

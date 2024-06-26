@@ -10,7 +10,7 @@ import shutil
 extensions = ".sl2"
 seemless_save = ".co2"
 #Variable to define the path to the games save directory
-directory = os.path.join(os.path.expanduser("~"), "AppData\Roaming\EldenRing")
+directory = os.path.join(os.path.expanduser("~"), r'AppData\Roaming\EldenRing')
 #function to locate the save paths
 def find_saves(extension, directory):
     matches = []
@@ -65,7 +65,7 @@ for filename in os.listdir(saves_location_str):
         #Printing folder names that are skipped
         print(f"Skipped {filename}. It is a directory.")
 #Successful migration of character files        
-print(f"Character back up completed. Your backup save files are located here ==>" + '\x1b[6;30;42m' + f"{back_up_folder}\{folder_name}" + '\x1b[0m' "<==")
+print(f"Character back up completed. Your backup save files are located here ==>" + '\x1b[6;30;42m' + fr"{back_up_folder}\{folder_name}" + '\x1b[0m' "<==")
 print('\x1b[0;30;43m' + "Vanilla save files end in .sl2 and Seemless Co-op saves end in .co2" + '\x1b[0m')
 input('Press Enter to exit....')
 
